@@ -68,3 +68,23 @@ To test the project, follow these steps:
    ```
 
 3. Review the test results and ensure all tests pass successfully.
+
+## Installing Dependencies
+
+To install the necessary dependencies for the project, follow these steps:
+
+1. Initialize the Go module:
+
+   ```sh
+   go mod init github.com/yourusername/geo-conversion-service
+   ```
+
+2. Add the required dependencies:
+
+   ```sh
+   go get github.com/gin-gonic/gin
+   go get github.com/aws/aws-sdk-go/aws
+   go get github.com/aws/aws-sdk-go/aws/session
+   go get github.com/aws/aws-sdk-go/service/s3
+   go get github.com/stretchr/testify/assert
+   ```
